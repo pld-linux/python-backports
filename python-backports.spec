@@ -3,11 +3,11 @@ Summary:	Namespace for backported Python features
 Name:		python-backports
 Version:	1.0
 Release:	5
+Group:		Libraries/Python
 # Only code is sourced from http://www.python.org/dev/peps/pep-0382/
 License:	Public Domain
-URL:		https://pypi.python.org/pypi/backports
 Source0:	backports.py
-Group:		Libraries/Python
+URL:		https://pypi.python.org/pypi/backports
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
