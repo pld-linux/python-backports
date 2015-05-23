@@ -12,6 +12,9 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# nothing to put there
+%define		_enable_debug_packages	0
+
 %description
 The backports namespace is a namespace reserved for features
 backported from the Python standard library to older versions of
