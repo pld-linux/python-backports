@@ -2,7 +2,7 @@
 Summary:	Namespace for backported Python features
 Name:		python-backports
 Version:	1.0
-Release:	5
+Release:	6
 Group:		Libraries/Python
 # Only code is sourced from http://www.python.org/dev/peps/pep-0382/
 License:	Public Domain
