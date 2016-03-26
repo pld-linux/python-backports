@@ -1,5 +1,6 @@
 # https://bugzilla.redhat.com/show_bug.cgi?id=998047
 Summary:	Namespace for backported Python features
+Summary(pl.UTF-8):	Przestrzeń nazw dla funkcjonalności dostarczanej przez backporty
 Name:		python-backports
 Version:	1.0
 Release:	6
@@ -27,6 +28,19 @@ package.
 Backports to earlier versions of Python 3, if they exist, do not need
 this package because of changes made in Python 3.3 in PEP 420
 <http://www.python.org/dev/peps/pep-0420/>.
+
+%description -l pl.UTF-8
+Przestrzeń nazw backports to przestrzeń zarezerwowana dla
+funkcjonalności dostarczanej przez backporty z biblioteki standardowej
+Pythona do starszych wersji Pythona 2.
+
+Pakiety istniejące w przestrzeni nazw backports w PLD nie powinny
+dostarczać własnego pliku backports/__init__.py, lecz wymagać tego
+pakietu.
+
+Backporty do wcześniejszych wersji Pythona 3, jeśli istnieją, nie
+potrzebują tego pakietu ze względu na zmiany dokonane w Pythonie 3.3 w
+PEP 420 <http://www.python.org/dev/peps/pep-0420/>.
 
 %prep
 
