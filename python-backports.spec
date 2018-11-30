@@ -3,7 +3,7 @@ Summary:	Namespace for backported Python features
 Summary(pl.UTF-8):	Przestrzeń nazw dla funkcjonalności dostarczanej przez backporty
 Name:		python-backports
 Version:	1.0
-Release:	6
+Release:	7
 Group:		Libraries/Python
 # Only code is sourced from http://www.python.org/dev/peps/pep-0382/
 License:	Public Domain
@@ -11,6 +11,7 @@ Source0:	backports.py
 URL:		https://pypi.python.org/pypi/backports
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+Conflicts:	python-configparser < 3.5.0-3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # nothing to put there
