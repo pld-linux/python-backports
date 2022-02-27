@@ -3,7 +3,7 @@ Summary:	Namespace for backported Python features
 Summary(pl.UTF-8):	Przestrzeń nazw dla funkcjonalności dostarczanej przez backporty
 Name:		python-backports
 Version:	1.0
-Release:	7
+Release:	8
 Group:		Libraries/Python
 # Only code is sourced from http://www.python.org/dev/peps/pep-0382/
 License:	Public Domain
